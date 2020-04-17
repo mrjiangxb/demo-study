@@ -66,6 +66,9 @@ public class Client {
         channel.writeAndFlush(buf);
     }
 
+    public void closeConnect() {
+        this.send("_close_");
+    }
 }
 
 class ClientChannelInitializer extends ChannelInitializer<SocketChannel> {

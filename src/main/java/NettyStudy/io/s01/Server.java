@@ -1,6 +1,5 @@
 package NettyStudy.io.s01;
 
-import NettyStudy.io.netty.NettyServer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;
@@ -56,7 +55,7 @@ class ServerChildHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        NettyServer.clients.add(ctx.channel());
+        Server.clients.add(ctx.channel());
     }
 
     @Override
@@ -67,9 +66,17 @@ class ServerChildHandler extends ChannelInboundHandlerAdapter {
 
             byte[] bytes = new byte[buf.readableBytes()];
             buf.getBytes(buf.readerIndex(), bytes);
-            System.out.println(new String(bytes));
+            String s = new String(bytes);
+            System.out.println(s);
 
-            NettyServer.clients.writeAndFlush(msg);
+            if (s.equals("_close_")) {
+                System.out.println("客户端要求退出");
+                Server.clients.remove(ctx.channel());
+                ctx.close();
+            } else {
+                Server.clients.writeAndFlush(msg);
+            }
+
         } finally {
             // ReferenceCountUtil.release(buf); writeAndFlush会自动释放不用再手动释放
             // System.out.println("buf被引用数"+buf.refCnt());

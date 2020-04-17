@@ -4,6 +4,8 @@ package NettyStudy.io.s01;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class ClientFrame extends Frame {
 
@@ -31,6 +33,15 @@ public class ClientFrame extends Frame {
                 client.send(textField.getText());
                 // textArea.setText(textArea.getText() + textField.getText());
                 textField.setText("");
+            }
+        });
+
+        this.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                client.closeConnect();
+                System.exit(0);
+                System.out.println("客户端已退出");
             }
         });
 

@@ -11,3 +11,8 @@
 7. 在main中显示
 8. 进行server端异常处理
     - 客户端断开连接时删除clients中保存的channel
+9. 客户端优雅地关闭
+    - 通知服务器要退出
+    - 服务器收到特定消息进行处理
+    - 服务器删除channel并关闭ctx
+10. 添加server的serverStart方法，并在成功启动后给出提示

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d340a70-c72d-4294-99be-567e74c242e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,12 +27,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="206">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#connect#0;class#Client#0" />
                 <element signature="method#main#0;class#Client#0" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2082#2083#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,37 +43,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#1088#1266#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="286">
+                <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -87,9 +89,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NettyServer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Server</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="jiangxiangbo &lt;mrjiangxb@163.com&gt;" />
         <option value="jiangxb" />
       </list>
     </option>
@@ -108,10 +119,10 @@
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/CliientFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" />
       </list>
     </option>
   </component>
@@ -125,7 +136,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
+    <option name="x" value="333" />
     <option name="y" value="43" />
     <option name="width" value="1211" />
     <option name="height" value="692" />
@@ -351,7 +362,7 @@
       <workItem from="1586916307594" duration="5599000" />
       <workItem from="1587003106320" duration="4535000" />
       <workItem from="1587025982829" duration="15435000" />
-      <workItem from="1587085728593" duration="10266000" />
+      <workItem from="1587085728593" duration="13274000" />
     </task>
     <task id="LOCAL-00001" summary="demo-netty">
       <created>1587027537561</created>
@@ -374,24 +385,31 @@
       <option name="project" value="LOCAL" />
       <updated>1587088864061</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="聊天室小程序：完成功能">
+      <created>1587108760607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587108760607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35835000" />
+    <option name="totallyTimeSpent" value="38843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="43" width="1211" height="692" extended-state="0" />
+    <frame x="333" y="43" width="1211" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24847959" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24847959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" weight="0.31343284" />
+      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" weight="0.4347015" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,7 +470,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo-netty" />
     <MESSAGE value="聊天室小程序：改造Client，画出图形界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="聊天室小程序：改造Client，画出图形界面" />
+    <MESSAGE value="聊天室小程序：完成功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="聊天室小程序：完成功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/io/OutputStream.java">
@@ -657,34 +676,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1089#1464#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state relative-caret-position="206">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#connect#0;class#Client#0" />
             <element signature="method#main#0;class#Client#0" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -693,12 +702,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#1088#1266#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -706,10 +717,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <first_editor relative-caret-position="286">
+            <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
