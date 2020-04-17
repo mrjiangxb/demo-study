@@ -11,6 +11,8 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 public class Client {
 
+    private Channel channel = null;
+
     public void connect () {
         // 事件处理的线程池
         EventLoopGroup group = new NioEventLoopGroup(1);
@@ -30,11 +32,11 @@ public class Client {
                 @Override
                 public void operationComplete(ChannelFuture channelFuture) throws Exception {
                     if (!channelFuture.isSuccess()) {
-                        // 已经连上了
+                        // 连接失败
                         System.out.println("not connected!");
                     } else {
-                        // 连接失败
-                        System.out.println("connected!");
+                        // initialize the channel
+                        channel = channelFuture.channel();
                     }
                 }
             });
@@ -59,6 +61,11 @@ public class Client {
         client.connect();
     }
 
+    public void send(String msg){
+        ByteBuf buf = Unpooled.copiedBuffer(msg.getBytes());
+        channel.writeAndFlush(buf);
+    }
+
 }
 
 class ClientChannelInitializer extends ChannelInitializer<SocketChannel> {
@@ -79,9 +86,12 @@ class ClientHandler extends ChannelInboundHandlerAdapter {
 
             byte[] bytes = new byte[buf.readableBytes()];
             buf.getBytes(buf.readerIndex(), bytes);
+
+            String msgAccept = new String(bytes);
+            ClientFrame.getInstance().updateText(msgAccept);
+
             System.out.println(new String(bytes));
 
-            ctx.writeAndFlush(msg);
         } finally {
             if (buf != null) {
                 // ReferenceCountUtil.release(buf);  writeAndFlush会自动释放不用再手动释放
@@ -96,7 +106,7 @@ class ClientHandler extends ChannelInboundHandlerAdapter {
         // netty的ByteBuf 直接访问内存 效率高 Direct Memory
         // 直接访问内存 不参与java的垃圾回收
         // 这个buf直接指向操作系统内存，不是jvm的虚拟内存，需要手动释放
-        ByteBuf buf = Unpooled.copiedBuffer("[NettyClient]--->hello".getBytes());
+        ByteBuf buf = Unpooled.copiedBuffer("[system]--->hello".getBytes());
 
         // 该方法会自动释放内存
         ctx.writeAndFlush(buf);

@@ -29,10 +29,10 @@ public class NettyClient {
                 @Override
                 public void operationComplete(ChannelFuture channelFuture) throws Exception {
                     if (!channelFuture.isSuccess()) {
-                        // 已经连上了
+                        // 连接失败
                         System.out.println("not connected!");
                     } else {
-                        // 连接失败
+                        // 已经连上了
                         System.out.println("connected!");
                     }
                 }
@@ -74,7 +74,7 @@ class ClientHandler extends ChannelInboundHandlerAdapter {
             buf.getBytes(buf.readerIndex(), bytes);
             System.out.println(new String(bytes));
 
-            ctx.writeAndFlush(msg);
+            // ctx.writeAndFlush(msg);
         } finally {
             if (buf != null) {
                 // ReferenceCountUtil.release(buf);  writeAndFlush会自动释放不用再手动释放

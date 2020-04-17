@@ -7,29 +7,51 @@ import java.awt.event.ActionListener;
 
 public class ClientFrame extends Frame {
 
+    private static final ClientFrame INSTANCE = new ClientFrame();
+
     TextArea textArea = new TextArea();
     TextField textField = new TextField();
 
-    public ClientFrame () {
+    Client client = null;
+
+    public static ClientFrame getInstance() {
+        return INSTANCE;
+    }
+
+    private ClientFrame () {
         this.setSize(600, 400);
         this.setLocation(100,20);
         this.add(textArea, BorderLayout.CENTER);
         this.add(textField, BorderLayout.SOUTH);
+
         textField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // 把字符串发到服务器
-                textArea.setText(textArea.getText() + textField.getText());
+                client.send(textField.getText());
+                // textArea.setText(textArea.getText() + textField.getText());
                 textField.setText("");
             }
         });
-        this.setVisible(true);
-        // 连接客户端
-        new Client().connect();
+
+    }
+
+
+    // 连接客户端
+    private void connectToServer() {
+        client = new Client();
+        client.connect();
+    }
+
+    public void updateText(String msgAccept){
+        this.textArea.setText(
+                textArea.getText()+System.getProperty("line.separator")+msgAccept);
     }
 
     public static void main(String[] args) {
-        new ClientFrame();
+        ClientFrame frame = ClientFrame.INSTANCE;
+        frame.setVisible(true);
+        frame.connectToServer(); // 连接客户端
     }
 
 }
