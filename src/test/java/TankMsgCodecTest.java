@@ -1,6 +1,6 @@
-import NettyStudy.io.s02.TankMsg;
-import NettyStudy.io.s02.TankMsgDecoder;
-import NettyStudy.io.s02.TankMsgEncoder;
+import com.jiangxb.netty.io.s02.TankMsg;
+import com.jiangxb.netty.io.s02.TankMsgDecoder;
+import com.jiangxb.netty.io.s02.TankMsgEncoder;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.embedded.EmbeddedChannel;

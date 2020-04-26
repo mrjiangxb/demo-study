@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d340a70-c72d-4294-99be-567e74c242e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/BioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/ClientFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,47 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final-sources.jar!/io/netty/channel/embedded/EmbeddedChannel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="246" column="32" lean-forward="true" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="32" />
-              <folding>
-                <element signature="e#9031#9032#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -124,6 +103,16 @@
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/io/bio/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/bio/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/CreatThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/ThreadState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java" />
       </list>
     </option>
   </component>
@@ -137,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="36" />
+    <option name="x" value="158" />
+    <option name="y" value="15" />
     <option name="width" value="1211" />
     <option name="height" value="680" />
   </component>
@@ -150,6 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +172,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="jiangxb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-study" type="b2602c69:ProjectViewProjectNode" />
@@ -189,25 +180,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="s03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jiangxb" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,6 +199,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiangxb.juc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\myproject\demo-study\src\main\java\NettyStudy\io\s02" />
       <recent name="F:\IdeaProjects\myproject\demo-study\src\main\java\NettyStudy\io\s01" />
@@ -237,13 +219,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TankMsgCodecTest.testTankMsgEncoder2">
-    <configuration name="ClientFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NettyStudy.io.s02.ClientFrame" />
+  <component name="RunManager" selected="Application.Child">
+    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.Child" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NettyStudy.io.s02.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientFrame" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NettyStudy.io.s01.ClientFrame" />
+    <configuration name="SyncTest_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_01" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NettyStudy.io.s01.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NettyStudy.io.netty.Client" />
+    <configuration name="SyncTest_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_02" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NettyStudy.com.jiangxb.io.netty.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NettyStudy.io.s02.Server" />
+    <configuration name="SyncTest_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_03" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NettyStudy.io.s02.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,40 +272,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankMsgCodecTest.testTankMsgEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.ThreadState" />
       <module name="demo-study" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankMsgCodecTest" />
-      <option name="METHOD_NAME" value="testTankMsgEncoder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TankMsgCodecTest.testTankMsgEncoder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-study" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankMsgCodecTest" />
-      <option name="METHOD_NAME" value="testTankMsgEncoder2" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientFrame" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ClientFrame (1)" />
-      <item itemvalue="JUnit.TankMsgCodecTest.testTankMsgEncoder" />
-      <item itemvalue="JUnit.TankMsgCodecTest.testTankMsgEncoder2" />
+      <item itemvalue="Application.ThreadState" />
+      <item itemvalue="Application.SyncTest_01" />
+      <item itemvalue="Application.SyncTest_02" />
+      <item itemvalue="Application.SyncTest_03" />
+      <item itemvalue="Application.Child" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TankMsgCodecTest.testTankMsgEncoder2" />
-        <item itemvalue="JUnit.TankMsgCodecTest.testTankMsgEncoder" />
-        <item itemvalue="Application.ClientFrame (1)" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ClientFrame" />
+        <item itemvalue="Application.Child" />
+        <item itemvalue="Application.SyncTest_03" />
+        <item itemvalue="Application.SyncTest_02" />
+        <item itemvalue="Application.SyncTest_01" />
+        <item itemvalue="Application.ThreadState" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +315,11 @@
       <workItem from="1586916307594" duration="5599000" />
       <workItem from="1587003106320" duration="4535000" />
       <workItem from="1587025982829" duration="15435000" />
-      <workItem from="1587085728593" duration="20655000" />
+      <workItem from="1587085728593" duration="20970000" />
+      <workItem from="1587127245028" duration="516000" />
+      <workItem from="1587518704259" duration="4580000" />
+      <workItem from="1587606825113" duration="5118000" />
+      <workItem from="1587691495088" duration="4278000" />
     </task>
     <task id="LOCAL-00001" summary="demo-netty">
       <created>1587027537561</created>
@@ -384,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587115878556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Codec单元测试">
+      <created>1587119670127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587119670128</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -402,19 +388,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46224000" />
+    <option name="totallyTimeSpent" value="61031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="36" width="1211" height="680" extended-state="0" />
+    <frame x="158" y="15" width="1211" height="680" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1789748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27193746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.40458015" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
+      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.1812977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +464,8 @@
     <MESSAGE value="聊天室小程序：完成功能" />
     <MESSAGE value="聊天室小程序：完成关闭功能" />
     <MESSAGE value="编码解码测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="编码解码测试" />
+    <MESSAGE value="Codec单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codec单元测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/io/OutputStream.java">
@@ -502,17 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/bio/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
@@ -656,7 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/BioServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/netty/BioServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
@@ -666,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/netty/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
@@ -676,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/netty/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -686,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s01/ClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
@@ -700,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s01/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="73" column="49" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="49" />
@@ -710,7 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s01/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
@@ -724,24 +701,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/ClientFrame.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Client.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Server.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/ClientFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="286">
@@ -751,14 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsg.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/TankMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/TankMsgEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -768,7 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/TankMsgDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
@@ -778,7 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="33" />
@@ -790,14 +754,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/ClientFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/ClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
@@ -809,7 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s02/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="198">
@@ -819,40 +783,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final-sources.jar!/io/netty/channel/embedded/EmbeddedChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="246" column="32" lean-forward="true" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="32" />
-          <folding>
-            <element signature="e#9031#9032#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s03/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final-sources.jar!/io/netty/channel/embedded/EmbeddedChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="246" column="32" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="32" />
+          <folding>
+            <element signature="e#9031#9032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/bio/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/CreatThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/ThreadState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3652">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
