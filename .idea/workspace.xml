@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d340a70-c72d-4294-99be-567e74c242e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/VolatileTest_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/atomic/AtomicInteger_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_0_LockSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_1_sync_wait_notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_2_cas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/bio/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/BioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/netty/NettyServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/ClientFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s01/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/ClientFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/TankMsgEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NettyStudy/io/s03/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,10 +27,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_1_sync_wait_notify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="88">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_2_cas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-366">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_0_LockSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -113,6 +126,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_03.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/VolatileTest_01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/atomic/AtomicInteger_02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/atomic/AtomicInteger_01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_0_LockSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_1_sync_wait_notify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_2_cas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/README.md" />
       </list>
     </option>
   </component>
@@ -126,8 +146,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="15" />
+    <option name="x" value="366" />
+    <option name="y" value="146" />
     <option name="width" value="1211" />
     <option name="height" value="680" />
   </component>
@@ -139,8 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,10 +201,22 @@
               <item name="jiangxb" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiangxb" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,10 +226,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/NettyStudy/io/s02" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiangxb.juc.atomic" />
       <recent name="com.jiangxb.juc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -219,13 +250,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Child">
-    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.Child" />
+  <component name="RunManager" selected="Application.T01_2_cas">
+    <configuration name="AtomicInteger_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.atomic.AtomicInteger_01" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncTest_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_01" />
+    <configuration name="AtomicInteger_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.atomic.AtomicInteger_02" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncTest_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_02" />
+    <configuration name="T01_0_LockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.interview.T01_0_LockSupport" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncTest_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.SyncTest_03" />
+    <configuration name="T01_1_sync_wait_notify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.interview.T01_1_sync_wait_notify" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.ThreadState" />
+    <configuration name="T01_2_cas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.interview.T01_2_cas" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.*" />
+          <option name="PATTERN" value="com.jiangxb.juc.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadState" />
-      <item itemvalue="Application.SyncTest_01" />
-      <item itemvalue="Application.SyncTest_02" />
-      <item itemvalue="Application.SyncTest_03" />
-      <item itemvalue="Application.Child" />
+      <item itemvalue="Application.AtomicInteger_01" />
+      <item itemvalue="Application.AtomicInteger_02" />
+      <item itemvalue="Application.T01_1_sync_wait_notify" />
+      <item itemvalue="Application.T01_0_LockSupport" />
+      <item itemvalue="Application.T01_2_cas" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Child" />
-        <item itemvalue="Application.SyncTest_03" />
-        <item itemvalue="Application.SyncTest_02" />
-        <item itemvalue="Application.SyncTest_01" />
-        <item itemvalue="Application.ThreadState" />
+        <item itemvalue="Application.T01_2_cas" />
+        <item itemvalue="Application.T01_1_sync_wait_notify" />
+        <item itemvalue="Application.T01_0_LockSupport" />
+        <item itemvalue="Application.AtomicInteger_01" />
+        <item itemvalue="Application.AtomicInteger_02" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +350,12 @@
       <workItem from="1587127245028" duration="516000" />
       <workItem from="1587518704259" duration="4580000" />
       <workItem from="1587606825113" duration="5118000" />
-      <workItem from="1587691495088" duration="4278000" />
+      <workItem from="1587691495088" duration="5612000" />
+      <workItem from="1587973502840" duration="1373000" />
+      <workItem from="1588042864257" duration="6649000" />
+      <workItem from="1588236428107" duration="763000" />
+      <workItem from="1588387813461" duration="5450000" />
+      <workItem from="1588582343629" duration="2182000" />
     </task>
     <task id="LOCAL-00001" summary="demo-netty">
       <created>1587027537561</created>
@@ -370,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587119670128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="线程锁测试">
+      <created>1587864662397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587864662398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -388,19 +431,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61031000" />
+    <option name="totallyTimeSpent" value="78782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="15" width="1211" height="680" extended-state="0" />
+    <frame x="366" y="146" width="1211" height="680" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27193746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32232842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.1812977" />
+      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.4389313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,89 +508,10 @@
     <MESSAGE value="聊天室小程序：完成关闭功能" />
     <MESSAGE value="编码解码测试" />
     <MESSAGE value="Codec单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codec单元测试" />
+    <MESSAGE value="线程锁测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程锁测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/io/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="177" column="6" lean-forward="true" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5742">
-          <caret line="287" column="16" selection-start-line="287" selection-start-column="15" selection-end-line="287" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11858">
-          <caret line="589" column="42" selection-start-line="589" selection-start-column="36" selection-end-line="589" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/bio/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="333" column="28" selection-start-line="333" selection-start-column="28" selection-end-line="333" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/net/SocketAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/net/InetSocketAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar!/io/netty/channel/ChannelInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar!/io/netty/channel/ChannelFutureListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="e#309#454#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#760#1002#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar!/io/netty/channel/CompleteChannelFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar!/io/netty/channel/ChannelFuture.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -783,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s03/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TankMsgCodecTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -883,10 +837,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s03/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/SyncTest_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/VolatileTest_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/bio/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/atomic/AtomicInteger_02.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="215" column="23" lean-forward="true" selection-start-line="215" selection-start-column="23" selection-end-line="215" selection-end-column="23" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6340#6341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1364" column="55" selection-start-line="1364" selection-start-column="51" selection-end-line="1364" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/atomic/AtomicInteger_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_1_sync_wait_notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_0_LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/T01_2_cas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/interview/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
