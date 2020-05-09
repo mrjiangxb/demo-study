@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d340a70-c72d-4294-99be-567e74c242e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T03_CyclicBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T04_Phaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T05_ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T06_Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T07_Exchanger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T05_ReadWriteLock.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T06_Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,20 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/concurrent/locks/ReadWriteLock.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T07_Exchanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-end-line="117" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1428">
-              <caret line="216" column="32" selection-start-line="216" selection-start-column="19" selection-end-line="216" selection-end-column="32" />
+            <state relative-caret-position="396">
+              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -131,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T03_CyclicBarrier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T04_Phaser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T05_ReadWriteLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T06_Semaphore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T07_Exchanger.java" />
       </list>
     </option>
   </component>
@@ -144,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="31" />
+    <option name="x" value="115" />
+    <option name="y" value="49" />
     <option name="width" value="1211" />
     <option name="height" value="680" />
   </component>
@@ -157,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +206,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,33 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T05_ReadWriteLock">
-    <configuration name="T02_CountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.juclock.T02_CountDownLatch" />
-      <module name="demo-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.juclock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T02_CountDownLatch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.juclock.T02_CountDownLatch1" />
-      <module name="demo-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxb.juc.juclock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.T07_Exchanger">
     <configuration name="T03_CyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.juclock.T03_CyclicBarrier" />
       <module name="demo-study" />
@@ -315,20 +281,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T06_Semaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.juclock.T06_Semaphore" />
+      <module name="demo-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxb.juc.juclock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T07_Exchanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.juc.juclock.T07_Exchanger" />
+      <module name="demo-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxb.juc.juclock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.T02_CountDownLatch" />
-      <item itemvalue="Application.T02_CountDownLatch1" />
       <item itemvalue="Application.T03_CyclicBarrier" />
       <item itemvalue="Application.T04_Phaser" />
       <item itemvalue="Application.T05_ReadWriteLock" />
+      <item itemvalue="Application.T06_Semaphore" />
+      <item itemvalue="Application.T07_Exchanger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T07_Exchanger" />
+        <item itemvalue="Application.T06_Semaphore" />
         <item itemvalue="Application.T05_ReadWriteLock" />
         <item itemvalue="Application.T04_Phaser" />
         <item itemvalue="Application.T03_CyclicBarrier" />
-        <item itemvalue="Application.T02_CountDownLatch1" />
-        <item itemvalue="Application.T02_CountDownLatch" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +350,8 @@
       <workItem from="1588643792572" duration="615000" />
       <workItem from="1588730168473" duration="8209000" />
       <workItem from="1588840882761" duration="10328000" />
-      <workItem from="1588901927041" duration="16809000" />
+      <workItem from="1588901927041" duration="16865000" />
+      <workItem from="1588990738350" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="demo-netty">
       <created>1587027537561</created>
@@ -430,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588860578153</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="juc lock demo">
+      <created>1588947480741</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588947480741</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -448,19 +448,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116187000" />
+    <option name="totallyTimeSpent" value="121952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="31" width="1211" height="680" extended-state="0" />
+    <frame x="115" y="49" width="1211" height="680" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23110339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35968724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.1889313" />
+      <window_info anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" visible="true" weight="0.22900763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,21 +531,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="juc lock demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/netty/io/s01/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#connect#0;class#Client#0" />
-            <element signature="method#main#0;class#Client#0" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/ClientFrame.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Client.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NettyStudy/io/s02/s01/README.md" />
@@ -920,27 +905,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T05_ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
-          <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-end-line="117" selection-end-column="32" />
+          <caret line="117" column="32" selection-start-line="117" selection-end-line="117" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
+        <state relative-caret-position="22">
           <caret line="216" column="32" selection-start-line="216" selection-start-column="19" selection-end-line="216" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T05_ReadWriteLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T06_Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/juc/juclock/T07_Exchanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
         </state>
       </provider>
     </entry>
