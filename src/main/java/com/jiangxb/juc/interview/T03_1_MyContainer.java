@@ -15,7 +15,7 @@ public class T03_1_MyContainer<E> {
     final private int MAX = 10; // 最多10个元素
     private int count = 0;
 
-    private Lock lock = new ReentrantLock();
+    private Lock lock = new ReentrantLock(true);
     private Condition producer = lock.newCondition();
     private Condition consumer = lock.newCondition();
 
