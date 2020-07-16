@@ -17,7 +17,7 @@ public class ShellSort1 {
 
     public static void main(String[] args) {
 
-        int[] arr = {5, 21, 9, 6, 10, 2, 16};
+        int[] arr = {5, 21, 9, 6, 10, 2, 16, 43, 12, 66, 24};
         int len = arr.length;
         int count = 0;
 
@@ -29,15 +29,13 @@ public class ShellSort1 {
             for (int i = gap; i < len; i++) {
                 int j = i;
                 int temp = arr[j];
-                if (arr[j] < arr[j - gap]) {
-                    while (j - gap >= 0 && temp < arr[j - gap]) {
-                        // 移动 这里和插入排序是一样的原理
-                        arr[j] = arr[j - gap];
-                        j -= gap;
-                    }
-                    // while退出后就给temp找到了插入位置
-                    arr[j] = temp;
+                while (j - gap >= 0 && temp < arr[j - gap]) {
+                    // 移动 这里和插入排序是一样的原理
+                    arr[j] = arr[j - gap];
+                    j -= gap;
                 }
+                // while退出后就给temp找到了插入位置
+                arr[j] = temp;
             }
             System.out.println("第"+(++count)+"轮："+Arrays.toString(arr));
         }
