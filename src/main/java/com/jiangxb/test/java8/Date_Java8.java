@@ -15,11 +15,13 @@ import java.util.Date;
  */
 public class Date_Java8 {
     public static void main(String[] args) {
+
         // jdk 1.8 以前
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date();
         String dateStr = simpleDateFormat.format(date);
         System.out.println("java.util.Date:  " + dateStr);
+
         // jdk 1.8 及以后
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         LocalDateTime localDateTime = LocalDateTime.now();
