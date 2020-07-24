@@ -19,7 +19,7 @@ public class Optional_Java8 {
         Optional_Java8 instance = new Optional_Java8();
 
         Integer value1 = null;
-        Integer value2 = new Integer(10);
+        Integer value2 = Integer.valueOf(10);
 
         // Optional.ofNullable -- 允许传递为null参数
         Optional<Integer> a = Optional.ofNullable(value1);
@@ -39,7 +39,7 @@ public class Optional_Java8 {
         System.out.println("第二个参数存在：" + b.isPresent());
 
         // Optional.orElse -- 如果值存在，返回它，否则返回默认值
-        Integer value1 = a.orElse(new Integer(0));
+        Integer value1 = a.orElse(Integer.valueOf(0));
 
         // Optional.get -- 获取值，值需要存在
         Integer value2 = b.get();
