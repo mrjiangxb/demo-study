@@ -1,6 +1,5 @@
 package com.jiangxb.algorithm.sort;
 
-import javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.util.Arrays;
 
 /**
@@ -19,11 +18,11 @@ public class BubbleSort {
         for (int i = 0; i < len - 1; i++) {
 
             // 控制每次循环的比较次数
-            for (int j = 0; j < len - i - 1; j++) {
-                if (arr[j] > arr[j+1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+            for (int j = i + 1; j < len; j++) {
+                if (arr[i] > arr[j]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
             }
         }

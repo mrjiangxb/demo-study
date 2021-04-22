@@ -1,5 +1,7 @@
 package com.jiangxb.datastructure.hashtab;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -21,6 +23,9 @@ public class HashTabDemo {
 
         // 创建哈希表
         HashTab hashtab = new HashTab(2);
+
+        ArrayList<Object> list = new ArrayList<>();
+        List<Object> objects = list.subList(0, 4);
 
         // 菜单
         String key = "";
