@@ -4,9 +4,12 @@ package com.jiangxb.test.locktest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Interesting {
+/**
+ * 业务逻辑中的并发问题
+ */
+public class LockTest_1 {
 
-    private static final Logger log = LoggerFactory.getLogger(Interesting.class);
+    private static final Logger log = LoggerFactory.getLogger(LockTest_1.class);
 
     volatile int a = 1;
     volatile int b = 1;
@@ -35,7 +38,7 @@ public class Interesting {
     }
 
     public static void main(String[] args) {
-        Interesting interesting = new Interesting();
+        LockTest_1 interesting = new LockTest_1();
         new Thread(() -> interesting.add()).start();
         new Thread(() -> interesting.compare()).start();
     }

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d340a70-c72d-4294-99be-567e74c242e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/Interesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +26,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/Interesting.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="8" column="80" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1261#1262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,9 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/Date_Java8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/defaultmethod/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/defaultmethod/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/defaultmethod/FourWheeler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/defaultmethod/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/java8/defaultmethod/Car1.java" />
@@ -134,6 +163,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/DemoStudyApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/Interesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LocakTest_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_3.java" />
       </list>
     </option>
   </component>
@@ -153,8 +185,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
-    <option name="y" value="138" />
+    <option name="x" value="331" />
+    <option name="y" value="112" />
     <option name="width" value="2064" />
     <option name="height" value="1203" />
   </component>
@@ -168,7 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +281,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Interesting">
+  <component name="RunManager" selected="Application.LockTest_3">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiangxb.algorithm.sort.BubbleSort" />
       <module name="demo-study" />
@@ -311,8 +343,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.test.locktest.Interesting" />
+    <configuration name="LockTest_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.test.locktest.LockTest_2" />
+      <module name="demo-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangxb.test.locktest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockTest_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangxb.test.locktest.LockTest_3" />
       <module name="demo-study" />
       <extension name="coverage">
         <pattern>
@@ -337,19 +382,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangxb.algorithm.Test" />
-      <module name="demo-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangxb.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="demo-study" />
       <extension name="coverage">
@@ -364,19 +396,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.MergeTwoLists" />
-      <item itemvalue="Application.Interesting" />
       <item itemvalue="Spring Boot.DemoStudyApplication" />
+      <item itemvalue="Application.LockTest_2" />
+      <item itemvalue="Application.LockTest_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Interesting" />
+        <item itemvalue="Application.LockTest_3" />
+        <item itemvalue="Application.LockTest_2" />
         <item itemvalue="Spring Boot.DemoStudyApplication" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +491,8 @@
       <workItem from="1618307316919" duration="3648000" />
       <workItem from="1619097812375" duration="2584000" />
       <workItem from="1619532141908" duration="1792000" />
-      <workItem from="1619534632685" duration="1921000" />
+      <workItem from="1619534632685" duration="1988000" />
+      <workItem from="1619701470709" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="demo-netty">
       <created>1587027537561</created>
@@ -643,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619536428945</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="代码加锁测试">
+      <created>1619536564408</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1619536564408</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +719,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371589000" />
+    <option name="totallyTimeSpent" value="375577000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -694,7 +734,7 @@
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16034359" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23520486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -702,8 +742,8 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" sideWeight="0.49954087" visible="true" weight="0.28518057" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32686567" />
+      <window_info active="true" anchor="bottom" x="22" y="278" width="1322" height="172" id="Run" order="2" sideWeight="0.49954087" visible="true" weight="0.24657534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30149254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -794,9 +834,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="代码加锁测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/domain/leave/event/LeaveEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/domain/leave/repository/ApprovalInfoDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/domain/leave/repository/LeaveEventDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/interfaces/assembler/LeaveAssembler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/interfaces/dto/ApplicantDTO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/DDD_leave/domain/leave/repository/LeaveRepositoryInterface.java" />
@@ -1078,10 +1115,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/Interesting.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.6/lib/src.zip!/java.base/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="141">
+          <caret line="834" column="14" selection-start-line="834" selection-start-column="14" selection-end-line="834" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiangxb/test/locktest/LockTest_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
