@@ -5,8 +5,8 @@ public class Test {
     public static void main(String[] args) {
 
         // 123
-        int reverse = Solution.reverse(2147483641);
-        System.out.println(reverse);
+        boolean flag = Solution.isPalinddrome(-121);
+        System.out.println(flag);
 
     }
 
@@ -27,6 +27,27 @@ class Solution {
             x = x/10;
         }
         return (int) temp;
+    }
 
+    public static boolean isPalinddrome(int x) {
+        long temp = 0;
+        int copy = x;
+        // 获取反转后的数 temp
+        while (copy > 0) {
+            int pop = copy % 10;
+            temp = temp * 10 + pop;
+            // 若溢出 直接返回false
+            if (temp != (int) temp) {
+                return false;
+            }
+            copy /= 10;
+        }
+
+        // 若 temp == x 则为回文数
+        if (temp == x) {
+            return true;
+        }
+
+        return false;
     }
 }

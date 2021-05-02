@@ -22,11 +22,11 @@ public class LockTest_3 {
         List<Integer> data = new ArrayList<>();
 
         Long begin = System.currentTimeMillis();
-        // 多个线程执行1000次
-        IntStream.rangeClosed(1, 1000).parallel().forEach(i -> {
+        // 多个线程执行500次
+        IntStream.rangeClosed(1, 500).parallel().forEach(i -> {
             // 粗粒度锁
             synchronized (lockTest_3) {
-                lockTest_3.businessMethod();
+                lockTest_3.slowMethod();
                 data.add(i);
             }
         });
@@ -34,7 +34,7 @@ public class LockTest_3 {
 
     }
 
-    private void businessMethod() {
+    private void slowMethod() {
         try {
             TimeUnit.MILLISECONDS.sleep(10);
         } catch (InterruptedException e) {
