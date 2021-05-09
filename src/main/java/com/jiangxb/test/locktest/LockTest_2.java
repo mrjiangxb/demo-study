@@ -27,7 +27,6 @@ public class LockTest_2 {
 }
 
 class Data {
-
     private static int counter = 0;
 
     // 在非静态方法上加锁，锁定的是当前对象，
@@ -42,7 +41,6 @@ class Data {
 }
 
 class Data1 {
-
     private static int counter = 0;
 
     private static Object locker = new Object();

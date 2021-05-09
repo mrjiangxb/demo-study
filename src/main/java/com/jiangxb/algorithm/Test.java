@@ -1,11 +1,16 @@
 package com.jiangxb.algorithm;
 
 
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
 public class Test {
 
     public static void main(String[] args) {
 
-        int result = Solution.romanToInt("DCXXI");
+        boolean result = Solution.isValid("{(})[]");
         System.out.println(result);
 
     }
@@ -14,6 +19,75 @@ public class Test {
 
 class Solution {
 
+    /**
+     * 20.有效的括号
+     * @param s
+     * @return
+     */
+    public static boolean isValid(String s) {
+        int n = s.length();
+        if (n % 2 == 1) {
+            return false;
+        }
+
+        Map<Character, Character> pairs = new HashMap<>(){{
+            put(')', '(');
+            put(']', '[');
+            put('}', '{');
+        }};
+
+        Deque<Character> stack = new LinkedList<>();
+
+        for (int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            // 若当前字符是右括号，进行匹配；若是左括号，入栈
+            if (pairs.containsKey(ch)) {
+                // 若栈中的左括号为空，或栈顶括号不与当前的右括号匹配，返回false
+                if (stack.isEmpty() || stack.peek() != pairs.get(ch)) {
+                    return false;
+                }
+                // 若匹配 栈顶被匹配到的括号出栈
+                stack.pop();
+            } else {
+                stack.push(ch);
+            }
+        }
+
+        return stack.isEmpty();
+    }
+
+    /**
+     * 最长公共前缀
+     * @param strs
+     * @return
+     */
+    public static String longestCommonPrefix(String[] strs) {
+        // strs = ["flower","flow","flight"]
+
+        if (strs.length == 0) {
+            return "";
+        }
+
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            int j = 0;
+            for (; j < prefix.length() && j < strs[i].length(); j++) {
+                if (strs[i].charAt(j) != prefix.charAt(j)) {
+                    break;
+                }
+            }
+            prefix = prefix.substring(0, j);
+        }
+
+        return prefix;
+
+    }
+
+    /**
+     * 罗马数字转阿拉伯数字
+     * @param s
+     * @return
+     */
     public static int romanToInt(String s) {
 
         int result = 0;
