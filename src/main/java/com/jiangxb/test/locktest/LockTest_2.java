@@ -22,6 +22,13 @@ public class LockTest_2 {
                 .forEach(i -> new Data1().add());
 
         System.out.println("new十万个Data1对象调用add后: " + Data1.getCounter());
+
+        // 多线程循环一定次数 调用Data2类不同实例的add方法
+        IntStream.rangeClosed(1, 10_0000)
+                .parallel() // 并行流转换
+                .forEach(i -> new Data2().add());
+
+        System.out.println("new十万个Data2对象调用add后: " + Data2.getCounter());
     }
 
 }
@@ -45,12 +52,25 @@ class Data1 {
 
     private static Object locker = new Object();
 
-    // 对静态属性locker加锁,或者在该静态方法上加synchronized,锁定的是class,所有实例的class都是相同的
+    // 对静态属性locker加锁,该类的所有实例锁定的对象都是同一个
     // 也就是该类的所有对象用的都是同一把锁
     public void add() {
         synchronized (locker) {
             counter++;
         }
+    }
+
+    public static int getCounter() {
+        return counter;
+    }
+}
+
+class Data2 {
+    private static int counter = 0;
+
+    // 在该静态方法上加synchronized,锁定的是class,所有实例的class都是相同的
+    public synchronized static void add() {
+        counter++;
     }
 
     public static int getCounter() {
