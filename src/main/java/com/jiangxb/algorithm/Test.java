@@ -10,7 +10,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        boolean result = Solution.isValid("{(})[]");
+        int result = Solution.removeDuplicates(new int[]{0, 0, 1, 1, 2, 2, 3});
         System.out.println(result);
 
     }
@@ -18,6 +18,26 @@ public class Test {
 }
 
 class Solution {
+
+    public static int removeDuplicates(int[] nums) {
+        // [0, 0, 1, 1, 2, 2, 3]
+
+        int n = nums.length;
+        if (n == 0) {
+            return 0;
+        }
+
+        int fast = 1;
+        int slow = 1;
+        while (fast < n) {
+            if (nums[fast] != nums[fast - 1]) {
+                nums[slow] = nums[fast];
+                slow++;
+            }
+            fast++;
+        }
+        return slow;
+    }
 
     /**
      * 20.有效的括号
